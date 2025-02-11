@@ -1,0 +1,115 @@
+body{
+    margin-top: 140px;
+}
+
+.main{
+opacity: 1;
+background-color: rgb(40,49, 130);
+position: fixed;
+left: 0;
+right: 0px;
+top: 0px;
+
+color: white;
+}
+.sub3{
+background-color: rgb(45, 60, 189);
+border: 1px solid transparent;
+padding: 5px 0;
+height: 100px;
+}
+
+.sub3 a{
+    font-size: 25px;
+    margin-left: 110px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sub3 a:first-child{
+margin-left: 160px;
+}
+
+.welcome {
+margin-left: 200px;
+}
+
+.welcome p {
+font-size: 40px;
+}
+
+
+.Home_page-div {
+display: flex;
+flex-direction: row;
+margin-top: -30px;
+}
+
+img {
+width: 300px;
+height: 300px;
+margin-left: 40px;
+margin-top: 50px;
+}
+
+.put-image:hover.put-image:hover:change {
+    background-image: url('IMAGES/IMG_6779.JPG');
+
+}
+
+.Info_div {
+align-items: center;
+margin-left: 100px;
+margin-top: 60px;
+
+}
+
+p {
+font-size: 25px;
+line-height: 2;
+
+
+}
+
+span {
+margin-top: 20px;
+font-weight: bold;
+}
+
+.back_image {
+background-color: rgb(24, 6, 126);
+width: 300px;
+height: 300px;
+position: absolute;
+margin-top: 70px;
+margin-left: 40px;
+}
+
+.put_image {
+position: relative;
+top: -45px;
+left: -45px;
+margin-top: 70px;
+margin-left: 40px;
+
+}
+
+.back_image {
+animation-name: kusi;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes kusi {
+0%{
+background-color: black;
+}
+25% {
+background-color: blue;
+}
+50% {
+background-color: pink;
+}
+
+}

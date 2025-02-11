@@ -1,0 +1,163 @@
+
+
+.main{
+    
+    background-color: rgb(155, 192, 19);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    color: white;
+    z-index: 1;
+}
+.sub3{
+    z-index: 1;
+    background-color: rgb(45, 60, 189);
+    height: 80px;
+    border: 1px solid transparent;
+    padding: 5px 0;
+    justify-content: center;
+
+}
+
+.sub3 a{
+    font-size: 25px;
+     margin-left: 110px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sub3 a:first-child{
+    margin-left: 160px;
+}
+
+
+
+
+label {
+    padding: 30px;
+}
+
+
+body {
+    background-color: #fdfdfd;
+    margin: 0px;
+    z-index: 0;
+    font-size: 20px;
+}
+.contact-main-div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 130px;
+
+}
+
+.contact {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.contact-image {
+    position: relative;
+    top: -15px;
+    right: -275px;
+    bottom: 0px;
+    font-size: 30px;
+    color: #1101f8;
+}
+
+.contact-info-main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+.contact-info, .contact-email-detail {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 5px 0px 0px;
+    width: 800px;
+    height: 100px;
+}
+
+.office-location-main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    gap: 160px;
+
+}
+
+.form-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 130px;
+}
+
+.form-main {
+    margin-left: 450px;
+}
+.gender {
+    margin-left: -20px;
+
+}
+
+#a {
+    margin-left: 30px;
+
+}
+
+#opt {
+    margin-top: 10px;
+    padding: 20px 140px ;
+}
+
+.text {
+    padding: 20px 100px;
+    border-width: 5px;
+    border-color: red;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0% {
+        border-color: blue;
+    }
+    50% {
+        border-color: black;
+    }
+    100% {
+        border-color: red;
+    }
+}
+label {
+    font-size: 20px;
+}
+
+button {
+    padding: 6px 70px;
+    margin-bottom: 70px;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
